@@ -212,7 +212,12 @@ nav{
     border: 11px solid rgb(216,30,54);
     text-align: center;
 }
-
+.mText{
+    background-color: rgb(229,232,233);
+    border-radius: 3px;
+    box-shadow: 5px 10px 8px #770f0f; 
+    margin-top: 10px;
+}
   
   /* Optional: Makes the sample page fill the window. */
   html,
