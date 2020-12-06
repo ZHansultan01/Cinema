@@ -1,0 +1,441 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMj8Xc5_jA0tqVHCoFHCk-2sHt4imItA&callback=initMap&libraries=&v=weekly"
+          defer></script>
+    </head>
+    <body>
+      
+      <div class="nav">
+        <label class="sad" for="toggle">&#9776;</label>
+      </div>
+      <input type="checkbox" name="" id="toggle">
+        <div class="header">
+            <div onmouseover="on(this)"onclick="window.location.reload();" onmouseout="off(this)">Main</div>
+            <div onmouseover="on(this)" onclick="contact()" onmouseout="off(this)">Contact us</div>
+            <div onmouseover="on(this)" onclick="favorite()" onmouseout="off(this)">Favorite</div>
+            <div onmouseover="on(this)" id="btn" onclick="popup()" onmouseout="off(this)" >Log in</div>
+        </div>
+        <div class="Workplace" >
+          <div class="row wow bounceInLeft">
+                <div class="find">
+                  <div class="user">
+                    <img height="80px" id="profile" width="80px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png">
+                    <p id="name"></p>
+                  </div>
+                    <div class="Start"><h3 Style="color: aliceblue;">Category</h3>
+                      <div class="nav1">
+                        <label class="lab" for="toggle1">&#9196;</label>
+                        <input type="checkbox" name="" id="toggle1">
+                      </div>
+                    </div>
+                    <div class="alpha">
+                    <div class="container">
+                        <div><input type="checkbox" name="Category"><h8>Drama</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>Action</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>Comedy</h8><br></div><!--   -->
+                        <div><input type="checkbox" name="Category"><h8>Fantasy</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>Horror</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>Mystery</h8><br></div> <!--   -->
+                        <div><input type="checkbox" name="Category"><h8>Romance</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>Thriller</h8><br></div>
+                        <div><input type="checkbox" name="Category"><h8>Western</h8><br></div>  
+                      </div>
+                    </div>
+                      <div  class="Start"><h3 Style="color: aliceblue;">Year</h3>
+                        <div class="nav2">
+                          <label class="lab2" for="toggle2">&#9196;</label>
+                          <input type="checkbox" name="" id="toggle2">
+                        </div>
+                      </div>
+                      <div class="beta">
+                    <div class="container">
+                        <div><input type="checkbox" name="Category"><h8>2021</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>2020</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>2019</h8><br></div><!--   -->
+                        <div><input type="checkbox" name="Category"><h8>2018</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>2017</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>2016</h8><br></div> <!--   -->
+                        <div><input type="checkbox" name="Category"><h8>2015</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>2014</h8><br></div>
+                        <div><input type="checkbox" name="Category"><h8>2013</h8><br></div>  
+                      </div>
+                    </div>
+                      <div  class="Start"><h3 Style="color: aliceblue;">Type</h3>
+                        <div class="nav3">
+                          <label class="lab3" for="toggle3">&#9196;</label>
+                          <input type="checkbox" name="" id="toggle3">
+                        </div>
+                      </div>
+                      <div class="charlie">
+                    <div class="container">
+                        <div><input type="checkbox" name="Category"><h8>Series</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>Films</h8><br></div> 
+                        <div><input type="checkbox" name="Category"><h8>Cartoons</h8><br></div><!--   -->
+                        <div><input type="checkbox" name="Category"><h8>Animes</h8><br></div>  
+                      </div>
+                    </div>
+                <input type="text" name="Search"><input type="submit" value="Search" autofocus> 
+              </div>
+              </div>
+                <div class="films">
+                  <div class="pow">
+
+                    <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/81F%2BYVt9QlL._SL1279_.jpg">Avengers<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+
+                    <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/81mHrZwpn7L._SL1500_.jpg">Iron man<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://i.pinimg.com/originals/57/bf/4d/57bf4d350e06bf735bd386c426dd0681.jpg">Captain<br> 
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://image.tmdb.org/t/p/original/vcFeElC8eXI668WSIxcDNkJSBxv.jpg">Hulk<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://image.tmdb.org/t/p/original/iKTnLPfka95HY1mU5PtfUsYXHbs.jpg">Avengers 2<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+
+                    <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://image.tmdb.org/t/p/original/kPwlinQkY86Vtwzg76oEDhdXXGB.jpg">Greenland<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="pow">
+
+                    <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/81n5eExCJLL._AC_SL1500_.jpg">Parasite<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://www.film.ru/sites/default/files/movies/posters/43162301-1161550.jpg">1917<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_FMjpg_UX1000_.jpg">Tenet<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://m.media-amazon.com/images/M/MV5BNmZhZGM4NDktN2FjOS00ZDAzLWEzMmMtYTY0MjRjYTdkMzQ1XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg">Onward<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                      <img width="100" src="https://cdnb.artstation.com/p/assets/images/images/024/887/257/large/logan-carroll-harley-pop-1-min.jpg?1583859065">Birds Of Prey<br>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star "></span>
+                    </div>
+                  </div>
+                  
+                  <div class="row wow flipInX">
+                    <div class="carp">
+                      <img width="100" src="https://image.tmdb.org/t/p/original/jPfBd6Af21hVtSSFPrbfV4nWKCz.jpg">The Witches<br>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+
+                  </div>
+
+                  <div class="pow">
+                    
+                    <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="data:image/jpeg;base64,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">Gentlemen<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://upload.wikimedia.org/wikipedia/ru/9/9d/Bloodshot_poster.jpg">Bloodshot<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                    </div>
+                      
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://image.tmdb.org/t/p/original/bRJ45CNSz0jhus0WGsJAzWSz7Hm.jpg">Dolittle<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                      <div class="carp">
+                        <img width="100" src="https://image.tmdb.org/t/p/original/56OXVINNlmnsy8lKPcRhjcJZu58.jpg">Ava<br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                    </div>
+
+                      <div class="row wow flipInX">
+                    <div class="carp">
+                      <img width="100" src="https://image.tmdb.org/t/p/original/m6RRMO06cbpGj16wakyCsljM2be.jpg">Just Mercy<br>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star "></span>
+                    </div>
+                  </div>
+
+                  <div class="row wow flipInX">
+                    <div class="carp">
+                      <img width="100" src="https://image.tmdb.org/t/p/original/4GJzsKqtPow8h2QA9Glad5VNT8a.jpg">Jojo Rabbit<br>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+
+                  </div>
+
+                 </div>
+                 <div class="row wow bounceInRight">
+                <div class="chat">
+                  <div class="mchat">
+                    <div  style="background-color:rgb(72, 187, 202);">Avengers is amazing film
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                    <div style="background-color:rgb(72, 202, 76);">I love actors of Parasite
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                    <div style="background-color:rgb(202, 172, 72);">1917's technique of filming is the best
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                    <div style="background-color:rgb(72, 83, 202);">The Gentlemen is Guy Ritchie's best film
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                    <div style="background-color:rgb(182, 72, 202);">I wanted to go Bloodshot on cinema glad i didn't
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                    <div style="background-color:rgb(202, 72, 72);">Birds of Prey did not live up to expectations
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                    <div style="background-color:rgb(72, 202, 72);">I hope the actors of Marvel will go back
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                    <div style="background-color:rgb(200, 202, 72);">Onward is good cartoon for children
+                      <img height= "50px" width="50px" src="https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"></div>
+                  </div>
+                  <input type="text" name="Message"><input type="submit" value="Message" autofocus>
+                </div>
+              </div>
+                 
+        </div>
+        <div class="Favorite">
+
+             <div class="car">
+               <h2>Favorite</h2>
+             </div>
+             <div class="mcarp">
+              <div class="carp">
+                <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/81F%2BYVt9QlL._SL1279_.jpg">Avengers<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+           <div class="mtext">Marvel's Avengers is a 2020 action role-playing brawler video game co-developed by Crystal Dynamics and published by Square Enix. Based on the Marvel Comics superhero team the Avengers, the game is mainly inspired by the Marvel Cinematic Universe's iteration of the group, but also incorporates elements from the team's long-running comic book mythology. </div> 
+          </div>
+
+          <div class="mcarp">
+              <div class="carp">
+                <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/81mHrZwpn7L._SL1500_.jpg">Iron man<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <div class="mtext">An Ironman Triathlon is one of a series of long-distance triathlon races organized by the World Triathlon Corporation (WTC), consisting of a 2.4-mile (3.86 km) swim, a 112-mile (180.25 km) bicycle ride and a marathon 26.22-mile (42.20 km) run, raced in that order. It is widely considered one of the most difficult one-day sporting events in the world.</div> 
+            </div>
+
+            <div class="mcarp">
+              <div class="carp">
+                <img width="100" src="https://i.pinimg.com/originals/57/bf/4d/57bf4d350e06bf735bd386c426dd0681.jpg">Captain<br> 
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+              </div>
+              <div class="mtext">Captain America is a superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics #1 (cover dated March 1941) from Timely Comics, a predecessor of Marvel Comics. Captain America was designed as a patriotic supersoldier who often fought the Axis powers of World War II and was Timely Comics' most popular character during the wartime period.</div> 
+            </div>
+
+            <div class="mcarp">
+              <div class="carp">
+                <img width="100" src="https://image.tmdb.org/t/p/original/vcFeElC8eXI668WSIxcDNkJSBxv.jpg">Hulk<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+              </div>
+              <div class="mtext">The Hulk is a fictional superhero appearing in publications by the American publisher Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk (May 1962). In his comic book appearances, the character is both the Hulk, a green-skinned, hulking and muscular humanoid possessing a vast degree of physical strength, and his alter ego Dr. Robert Bruce Banner, a physically weak, socially withdrawn, and emotionally reserved physicist.</div> 
+            </div>
+
+          <div class="mcarp">
+              <div class="carp">
+                <img width="100" src="https://image.tmdb.org/t/p/original/iKTnLPfka95HY1mU5PtfUsYXHbs.jpg">Avengers 2<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <div class="mtext">Avengers: Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to The Avengers (2012) and the 11th film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Jeremy Renner, Don Cheadle, Aaron Taylor-Johnson, Elizabeth Olsen, Paul Bettany, Cobie Smulders, Anthony Mackie, Hayley Atwell, Idris Elba, Stellan Skarsgård, James Spader, and Samuel L. Jackson.</div> 
+            </div>
+
+        
+
+        </div>
+        <div class="contact">
+          <h4>Our address is 15a Selevina Street </h4>
+          <h4>Telephone to Contact us is 87052201009</h4>
+          <h4>Our mail address is 190107009@stu.sdu.edu.kz</h4>
+          <h2 style="color:rgb(229,232,233);">You are Welcome</h2>
+        </div>
+        <div class="popup">
+          <div class="popup-content">
+           
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM0AAAD2CAMAAABC3/M1AAAAgVBMVEV6ruD7+/vF2u27JS66JDG0DBrE3vLE2+42cK46eLk0cbKhvNzB3vDI2evd6fL///99n8dAfLLv9fP+//qMqcsydLI7eLTItMm8JSu/1+p5r9x7rt93nsLw9Pj7+Pw7d70tcKi+2PN3rufL0+GzNUGIr9SPu+OxDB7Gs77I2/PE2eZB86ICAAACVUlEQVR4nO2Yy1IaUQAFAWNGQIKPoFHMw0ei5P8/MOyilWxk1dXTd8mC4lSfPnOHydHr8+H4+uNqWJ7MF8vT1ew/Z/g0fXPWZ4v5+cX6zWeXnzdXi+UwXB8ffXl+2c1ubifvO9vJxXR9t//ir9N/zrfff3/Mz833H/erYbbbPmx/7X/b49PkfWluoGluD0pDZXNYmtjkzbjZuLypaTWtpo2djcubmsZlkzfcNId5U9O4aahsWmguG5c3Na2mkdNQ2eQNl43Lm26dXDauNDWNy8a10D09uWzyhpumheayca1AC81l4/KmTeOycaVxNa2FLg25aVRvXGxcN5s2zZampsUmbzxs8saWpqbFZtze9H7DZePyxrVprjSuprlWoIXmsnF506bZ0tS02OSNh03ecNm4vKlpNa2mjZ2Ny5uaxmWTN9w0/QPFZeNagRaay8blTU2raeQ0VDZ5w2Xj8qZbJ5eNK01N47JxLXRPTy6bvOGmaaG5bFwr0EJz2bi8adO4bFxpXE1roUtDbhrVGxcb182mTbOlqWmxyRsPm7yxpalpsRm3N73fcNm4vHFtmiuNq2muFWihuWxc3rRptjQ1LTZ542GTN1w2Lm9qWk2raWNn4/KmpnHZ5A03Tf9Acdm4VqCF5rJxeVPTaho5DZVN3nDZuLzp1sll40pT07hsXAvd05PLJm+4aVpoLhvXCrTQXDYub9o0LhtXGlfTWujSkJtG9cbFxnWzadNsaWpabPLGwyZvbGlqWmzG7U3vN1w2Lm9cm+ZK42qaawVaaC4blzdtGj7NH/cwRF3NTSRGAAAAAElFTkSuQmCC" height="100%" width="40%" alt="logo">
+   
+            <div class="info">
+              <img class="closed" onclick="popdown()" src="https://lh3.googleusercontent.com/proxy/UunLrscz7M24QSUhszxrKNzLlX6N5sS9Dra5577D-5OVzz0uyWKc0BmFWxVfkxvBnebHVNH7YhJdSyT5WPtRipiG9KlVRTdF7uONhEYV6kzXK_zot47OBaOxuDkoUfBA2B9A" width="30" height="30">
+               <input id="username" type="text" name="username" placeholder="Username">
+               <input id="password" type="password" name="pass" placeholder="Password">
+               <button  onclick="login(username.value)" class="btn btn-outline-danger">Log in</button>
+            </div>
+         </div>
+        </div>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+          <hr>
+          <div class="row wow flipInX">
+            <div class="mapI">
+               <div><h2>If you need physical copy of films, you can get it from our stores in Ust Kamenagorsk</h2></div>
+               <div><h4>If you live in area below we can deliver physical copy for free </h4></div>
+             </div>
+           </div>
+            <div id="map">
+
+            </div>
+          
+            <script src="js/wow.min.js"></script>
+        <script>
+          new WOW().init();
+        </script>
+        <script type="text/javascript" src="js/particles.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+  
+    </body>
+</html>

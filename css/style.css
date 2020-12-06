@@ -1,0 +1,337 @@
+html body{
+    background-color: rgb(229,232,233);
+    
+}
+ 
+.Workplace{
+    background-color: rgb(216,30,54);
+    border-radius: 3px;
+    margin: 0px 30px 20px 30px;
+    height: 660;
+    width: 1455;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;    
+    display: flex;
+}
+.contact{
+    width: 80%;
+    height: 25%;
+    background-color: rgb(216,30,54);
+    border-radius: 3px;
+    border: 5px solid rgb(15, 40, 55);
+    margin: 20px auto;
+    box-shadow: 5px 10px 8px #888888; 
+    text-align: center;
+    display: none;
+    opacity: 0;
+}
+.favorite{
+    width: 80%;
+    height:1550;
+    background-color: rgb(216,30,54);
+    box-shadow: 5px 10px 8px #888888; 
+    text-align: center;
+    border-radius: 3px;
+    margin: 20px auto;
+    color:rgb(15, 40, 55);
+    display: none;
+    padding: 10px;
+    justify-content: space-around;
+    border: 10px solid rgb(15, 40, 55);
+}
+.carp{
+    margin-top: 10px; 
+}
+
+.contact > h4{
+    background-color: rgb(229,232,233);
+    border-radius: 3px;
+    margin: 10px;
+    
+    box-shadow: 5px 10px 8px #770f0f; 
+}
+.start{
+    display: flex;
+}
+#particles-js{
+    background:rgb(229,232,233);
+    stroke: red;
+}
+.header{
+    justify-content: space-around;
+    display: flex;
+}
+.header > div{
+    color:  rgb(216,30,54);
+    border-radius: 1px;
+    padding: 15px;
+    cursor: pointer;
+    /* rgb(15, 40, 55) */
+}
+.find{
+    height: 610;
+    background-color: rgb(15, 40, 55);
+    width: 300;
+    padding: 5;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 3px;
+    box-shadow: 5px 10px 8px #770f0f; 
+}
+h8 {
+    color: rgb(229,232,233);
+}
+.container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 40px 40px;
+}
+
+.pagination{
+    color: rgb(216,30,54) ;
+    justify-content: center;
+}
+.pagination > li > a{
+    background-color: rgb(229,232,233) ;
+    color:  rgb(15, 40, 55);
+}
+
+.popup-content{
+    display: flex;
+    background-color:rgb(15, 40, 55);
+    border-radius: 9px;
+    text-align: center;
+    position: relative;
+    height:60%;
+    width:50%;
+
+}
+.info{
+    height:50%;
+    width:60%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    padding-top: 30%;
+    justify-content: space-between;
+}
+.popup{
+    position: absolute;
+    top: 0;
+    display: none;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    background-color:  rgb(0, 0, 0,0.6);
+    z-index: 1;
+}
+input{
+    margin: 10px auto;
+}
+
+.closed{
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    cursor: pointer;
+}
+.user{
+    display: none;
+    border: 2px solid rgb(229,232,233);
+    border-radius: 3px;
+}
+p{
+    color: rgb(229,232,233);
+    font-size: 20;
+    padding-top: 20px;
+}
+#toggle{
+    display: none;
+}
+#toggle1{
+    display: none;
+}
+#toggle2{
+    display: none;
+}
+#toggle3{
+    display: none;
+}
+.sad{
+    margin: 8px 0 0 20px ;
+    font-size: 30px;
+    display: none;
+}
+.lab{
+    margin: 0px 0 5px 100px ;
+    font-size: 30px;
+}
+.lab2{
+    margin: 0px 0 5px 100px ;
+    font-size: 30px;
+}
+.lab3{
+    margin: 0px 0 5px 100px ;
+    font-size: 30px;
+}
+nav{
+    float: left;
+}
+.pow > div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#toggle1:checked + .alpha{
+    display: none;
+}
+#toggle2:checked + .beta{
+    display: none;
+}
+#toggle3:checked + .charlie{
+    display: none;
+}
+#map {
+    height: 70%;
+    width: 70%;
+    margin-left:250;
+    margin-bottom: 200;
+  }
+ h4{
+    background-color: rgb(216,30,54);
+    color: rgb(15, 40, 55);
+  }
+  .mapI{
+    background-color: rgb(15, 40, 55);
+    box-shadow: 5px 10px 8px #888888;  
+    border-radius: 3px;
+    color:rgb(229,232,233);
+    margin: 0 30 20 150;
+    padding: 10 0 10 0;
+    border: 11px solid rgb(216,30,54);
+    text-align: center;
+}
+
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+@media (max-width: 600px){
+    .find{
+        width: 400;
+        height: 610;
+        margin-bottom: 50px;
+    }
+    .mText{
+        display: none;
+    }
+    .popup-content{
+        width: 400;
+    }
+    .chat{
+        width: 400;
+        margin-left:-100;
+        background-color: cornflowerblue;
+    }
+    .row wow flipInX{
+        padding-left:0 ;
+    }
+    .sad{
+        display: block;
+        cursor: pointer;
+    }
+    .contact{
+        height:50%;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        padding-top: 20px ;
+        font-size: 30px;
+    }
+    .header > div{
+        border-top: 3px solid rgb(216,30,54) ;
+    }
+    #toggle:checked + .header{
+        display: none;
+    }
+    .Workplace{
+        display: block;
+        height: 5800px;
+        width: 425;
+    }
+    .pow > div{
+        margin-bottom: 50px;
+        width: 400;
+        height: 200;
+        margin-left: 0;
+    }
+    #map{
+        margin-left:70;
+    }
+    .films > div{
+        display: block;
+    }
+    .carp{
+        display: flex;
+        text-align: center;
+        padding-bottom: 200px;
+        width: 800;
+        height: 200;
+        background-color: rgb(229,232,233);
+    }
+    .carp > img{
+        height:200;
+        width: 134;
+    }
+}
+.row {
+  margin-left: 20;
+}
+.chat{
+    height: 610;
+    background-color: rgb(15, 40, 55);
+    width: 300;
+    padding: 5;
+    margin-left: 100px;
+    border-radius: 3px;
+    box-shadow: 5px 10px 8px #770f0f; 
+}
+
+.carp{
+    box-shadow: 5px 10px 8px #770f0f;
+    width: 100;
+    margin-left: 50px;
+    background-color: rgb(229,232,233);
+    border-radius: 3px;
+    height: 195;
+}
+.pow{
+    display: flex;
+}
+.mchat{
+    width: 270;
+    margin: 10 10 10 10;
+    height: 510;
+    background-color: rgb(229,232,233);
+    border-radius: 3px;
+    display: solid;
+}
+.chat> input{
+    margin-left: 10;
+}
+.mchat > div{
+    border-radius: 3px;
+    margin-left: 40;
+    margin-bottom: 10;
+    display: flex;
+    padding-left: 5;
+}
+.checked {
+    color: orange;
+  }
